@@ -64,7 +64,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения<br />для вашего бизнеса</h1>
-          <button class="hero-btn" type="button">Заказать услугу</button>
+          <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!--Особенности работы-->
@@ -129,35 +129,44 @@
           <ul class="projects-lists lists">
             <li class="projects-item">
               <a class="projects-link link" href="">
-                <img
-                  class="projects-photo"
-                  src="./images/desktop.jpg"
-                  alt="Десктопные приложения"
-                  width="370"
-                  height="294"
-                />
+                <div class="projects-label">
+                  <img
+                    class="projects-photo"
+                    src="./images/desktop.jpg"
+                    alt="Десктопные приложения"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="projects-label-text">Десктопные приложения</p>
+                </div>
               </a>
             </li>
             <li class="projects-item">
               <a class="projects-link link" href="">
-                <img
-                  class="projects-photo"
-                  src="./images/mobile.jpg"
-                  alt="Мобильные приложения"
-                  width="370"
-                  height="294"
-                />
+                <div class="projects-label">
+                  <img
+                    class="projects-photo"
+                    src="./images/mobile.jpg"
+                    alt="Мобильные приложения"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="projects-label-text">Мобильные приложения</p>
+                </div>
               </a>
             </li>
             <li class="projects-item">
               <a class="projects-link link" href="">
-                <img
-                  class="projects-photo"
-                  src="./images/design.jpg"
-                  alt="Дизайнерские решения"
-                  width="370"
-                  height="294"
-                />
+                <div class="projects-label">
+                  <img
+                    class="projects-photo"
+                    src="./images/design.jpg"
+                    alt="Дизайнерские решения"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="projects-label-text">Дизайнерские решения</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -422,9 +431,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn">
+        <button class="modal-btn" data-modal-close>
           <svg class="modal-icon" width="11" height="11">
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
