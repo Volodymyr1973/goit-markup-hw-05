@@ -98,12 +98,12 @@ img {
 
 /* -----Линки хедера----- */
 
-.header-lists,
+/* .header-lists,
 .header-contact-lists {
-  /* display: inline-block; */
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
-}
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */
 
 /* -----Блок навигации----- */
 
@@ -384,9 +384,9 @@ img {
   margin-right: 30px;
 } */
 
-.projects-photo:hover,
+/* .projects-photo:hover,
 .projects-link:focus {
-}
+} */
 
 /* -----Наша команда----- */
 
