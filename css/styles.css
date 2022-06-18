@@ -151,13 +151,18 @@ img {
 }
 
 .header-item {
-  position: relative;
   margin-right: 50px;
-  padding: 32px 0;
 }
 
 .header-item:last-child {
   margin-right: 0;
+}
+
+.header-item-link {
+  position: relative;
+  display: block;
+  height: 100%;
+  padding: 32px 0;
 }
 
 .header-lists,
@@ -201,7 +206,7 @@ img {
 }
 
 .header-contact-item {
-  padding: 32px 0;
+  /* padding: 32px 0; */
 }
 
 .header-contact-item:not(:first-child) {
@@ -210,6 +215,7 @@ img {
 
 .header-contact-link {
   display: flex;
+  padding: 32px 0;
   align-items: center;
   font-weight: 500;
   font-size: 14px;
@@ -361,10 +367,9 @@ img {
 .projects-label-text {
   position: absolute;
   bottom: 0;
-  padding: 27px 82px;
+  padding: 27px 0;
 
   width: 100%;
-  height: 70px;
 
   background: rgba(47, 48, 58, 0.8);
 
@@ -485,8 +490,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -675,13 +679,28 @@ img {
 
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+
   cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon {
   display: block;
   margin: 0 auto;
   fill: currentColor;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #2196f3;
+}
+
+.modal-btn:hover .modal-icon,
+.modal-btn:focus .modal-icon {
+  color: #ffffff;
 }
 
 /* -----Портфолио----- */
@@ -718,7 +737,7 @@ img {
   background-color: #f5f4fa;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -787,7 +806,11 @@ img {
   top: 0;
   width: 100%;
   height: 100%;
-  padding: 63px 24px;
+  padding: 0 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
