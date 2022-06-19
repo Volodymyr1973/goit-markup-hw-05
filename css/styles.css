@@ -135,13 +135,11 @@ img {
 .logo:hover,
 .logo-web:hover {
   color: var(--accent-color);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .logo:focus,
 .logo-web:focus {
   color: var(--accent-color);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .header-lists {
@@ -194,7 +192,6 @@ img {
 .header-item-link:hover,
 .header-item-link:focus {
   color: var(--accent-color);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* -----Контакты хедера----- */
@@ -203,10 +200,6 @@ img {
   display: flex;
   margin-left: auto;
   align-items: center;
-}
-
-.header-contact-item {
-  /* padding: 32px 0; */
 }
 
 .header-contact-item:not(:first-child) {
@@ -228,7 +221,6 @@ img {
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--accent-color);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .header-contact-pic {
@@ -292,7 +284,6 @@ img {
 .hero-btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* -----Особенности работы----- */
@@ -466,7 +457,6 @@ img {
 .team-card-link:focus {
   background-color: #2196f3;
   color: #ffffff;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-card-icon {
@@ -498,8 +488,6 @@ img {
   border: 1px solid #2196f3;
   border-radius: 4px;
   color: #2196f3;
-  /* transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .client-icon {
@@ -536,7 +524,6 @@ img {
 .logo-bottom:focus,
 .logo-web:focus {
   color: var(--accent-color);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* -----Адрес----- */
@@ -564,7 +551,6 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* -----Футер-соц.сети----- */
@@ -612,7 +598,6 @@ img {
 .footer-card-link:focus {
   background-color: #2196f3;
   color: #ffffff;
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .footer-card-icon {
@@ -746,8 +731,6 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* -----Портфолио карточки----- */
@@ -792,7 +775,6 @@ img {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .portfolio-photo-task {
